@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="absolute inset-0 overflow-hidden">
           {/* Zain Bubble 1 - Large central bubble with dynamic diagonal movement */}
           <img
-            src="/src/assets/zain bubble 1.png"
+            src="/assets/zain bubble 1.png"
             alt="Zain Bubble"
             className="absolute w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 animate-float-1 opacity-90 drop-shadow-lg object-cover"
             style={{
@@ -42,7 +42,7 @@ const Hero = () => {
 
           {/* Zain Bubble 2 - Medium bubble with circular motion */}
           <img
-            src="/src/assets/zain bubble 2.png"
+            src="/assets/zain bubble 2.png"
             alt="Zain Bubble"
             className="absolute w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 animate-float-2 opacity-85 drop-shadow-md object-cover"
             style={{
@@ -55,7 +55,7 @@ const Hero = () => {
 
           {/* Zain Bubble 3 - Small bubble with pulsing effect */}
           <img
-            src="/src/assets/zain bubble 3.png"
+            src="/assets/zain bubble 3.png"
             alt="Zain Bubble"
             className="absolute w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 animate-float-3 opacity-80 drop-shadow-md object-cover"
             style={{
@@ -68,7 +68,7 @@ const Hero = () => {
 
           {/* Zain Bubble 4 - Additional floating bubble with shimmer effect */}
           <img
-            src="/src/assets/zain bubble 4.png"
+            src="/assets/zain bubble 4.png"
             alt="Zain Bubble"
             className="absolute w-20 h-20 md:w-28 md:h-28 lg:w-36 lg:h-36 animate-float-4 opacity-70 drop-shadow-sm object-cover"
             style={{
@@ -81,7 +81,7 @@ const Hero = () => {
 
           {/* Zain Bubble 5 - Small decorative bubble */}
           <img
-            src="/src/assets/zain bubble 5.png"
+            src="/assets/zain bubble 5.png"
             alt="Zain Bubble"
             className="absolute w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 animate-float-5 opacity-65 drop-shadow-sm object-cover"
             style={{
@@ -94,7 +94,7 @@ const Hero = () => {
 
           {/* Zain Bubble 1 - Medium floating bubble */}
           <img
-            src="/src/assets/zain bubble 1.png"
+            src="/assets/zain bubble 1.png"
             alt="Zain Bubble"
             className="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 animate-float-6 opacity-75 drop-shadow-md object-cover"
             style={{
@@ -107,7 +107,7 @@ const Hero = () => {
 
           {/* Zain Bubble 2 - Small decorative bubble */}
           <img
-            src="/src/assets/zain bubble 2.png"
+            src="/assets/zain bubble 2.png"
             alt="Zain Bubble"
             className="absolute w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 animate-float-7 opacity-50 drop-shadow-sm object-cover"
             style={{
@@ -120,7 +120,7 @@ const Hero = () => {
 
           {/* Zain Bubble 3 - Small floating bubble */}
           <img
-            src="/src/assets/zain bubble 3.png"
+            src="/assets/zain bubble 3.png"
             alt="Zain Bubble"
             className="absolute w-14 h-14 md:w-18 md:h-18 lg:w-22 lg:h-22 animate-float-8 opacity-60 drop-shadow-sm object-cover"
             style={{
@@ -133,7 +133,7 @@ const Hero = () => {
 
           {/* Zain Bubble 4 - Tiny decorative bubble */}
           <img
-            src="/src/assets/zain bubble 4.png"
+            src="/assets/zain bubble 4.png"
             alt="Zain Bubble"
             className="absolute w-10 h-10 md:w-14 md:h-14 lg:w-18 lg:h-18 animate-float-9 opacity-45 drop-shadow-sm object-cover"
             style={{
@@ -146,7 +146,7 @@ const Hero = () => {
 
           {/* Zain Bubble 5 - Additional small bubble */}
           <img
-            src="/src/assets/zain bubble 5.png"
+            src="/assets/zain bubble 5.png"
             alt="Zain Bubble"
             className="absolute w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 animate-float-10 opacity-40 drop-shadow-sm object-cover"
             style={{

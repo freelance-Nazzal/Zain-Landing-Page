@@ -591,7 +591,7 @@ const CoverageMap = () => {
       {/* Zain Bubble Images as Background Decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <img
-          src="/src/assets/zain bubble 1.png"
+          src="/assets/zain bubble 1.png"
           alt="Zain Bubble"
           className="absolute w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 opacity-30 animate-float-1 drop-shadow-sm object-cover"
           style={{
@@ -602,7 +602,7 @@ const CoverageMap = () => {
           }}
         />
         <img
-          src="/src/assets/zain bubble 3.png"
+          src="/assets/zain bubble 3.png"
           alt="Zain Bubble"
           className="absolute w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 opacity-25 animate-float-2 drop-shadow-sm object-cover"
           style={{
@@ -613,7 +613,7 @@ const CoverageMap = () => {
           }}
         />
         <img
-          src="/src/assets/zain bubble 4.png"
+          src="/assets/zain bubble 4.png"
           alt="Zain Bubble"
           className="absolute w-20 h-20 md:w-28 md:h-28 lg:w-36 lg:h-36 opacity-35 animate-float-3 drop-shadow-sm object-cover"
           style={{
@@ -624,7 +624,7 @@ const CoverageMap = () => {
           }}
         />
         <img
-          src="/src/assets/zain bubble 5.png"
+          src="/assets/zain bubble 5.png"
           alt="Zain Bubble"
           className="absolute w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 opacity-28 animate-float-4 drop-shadow-sm object-cover"
           style={{
@@ -635,7 +635,7 @@ const CoverageMap = () => {
           }}
         />
         <img
-          src="/src/assets/zain bubble 2.png"
+          src="/assets/zain bubble 2.png"
           alt="Zain Bubble"
           className="absolute w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 opacity-20 animate-float-5 drop-shadow-sm object-cover"
           style={{
