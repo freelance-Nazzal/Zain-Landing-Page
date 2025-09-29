@@ -25,76 +25,137 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-purple-700 to-purple-600">
         <div className="absolute inset-0 bg-gradient-to-r from-purple-900/50 to-transparent"></div>
 
-        {/* Floating Bubbles - Exact Zain Style */}
+        {/* Zain Bubble Images */}
         <div className="absolute inset-0 overflow-hidden">
-          {/* Large Central Bubbles - Zain Style */}
-          <div className="absolute w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 bg-white/40 rounded-full animate-float-1 shadow-2xl"></div>
-          <div className="absolute w-40 h-40 md:w-56 md:h-56 lg:w-72 lg:h-72 bg-cyan-300/50 rounded-full animate-float-2 shadow-xl"></div>
-          <div className="absolute w-44 h-44 md:w-60 md:h-60 lg:w-76 lg:h-76 bg-purple-300/50 rounded-full animate-float-3 shadow-xl"></div>
-
-          {/* Medium Bubbles - Zain Style */}
-          <div className="absolute w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-white/35 rounded-full animate-float-4 shadow-lg"></div>
-          <div className="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 bg-blue-300/45 rounded-full animate-float-5 shadow-lg"></div>
-          <div className="absolute w-20 h-20 md:w-28 md:h-28 lg:w-36 lg:h-36 bg-cyan-400/40 rounded-full animate-float-6 shadow-lg"></div>
-          <div className="absolute w-26 h-26 md:w-34 md:h-34 lg:w-42 lg:h-42 bg-purple-400/45 rounded-full animate-float-7 shadow-lg"></div>
-
-          {/* Small Bubbles - Zain Style */}
-          <div className="absolute w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 bg-white/30 rounded-full animate-float-8 shadow-md"></div>
-          <div className="absolute w-14 h-14 md:w-18 md:h-18 lg:w-22 lg:h-22 bg-cyan-200/35 rounded-full animate-float-9 shadow-md"></div>
-          <div className="absolute w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 bg-purple-200/30 rounded-full animate-float-10 shadow-md"></div>
-          <div className="absolute w-10 h-10 md:w-14 md:h-14 lg:w-18 lg:h-18 bg-blue-200/25 rounded-full animate-float-11 shadow-md"></div>
-
-          {/* Geometric Shapes - Octagonal - Zain Style */}
-          <div
-            className="absolute w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 bg-white/35 animate-float-12 shadow-lg"
+          {/* Zain Bubble 1 - Large central bubble with dynamic diagonal movement */}
+          <img
+            src="/src/assets/zain bubble 1.png"
+            alt="Zain Bubble"
+            className="absolute w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 animate-float-1 opacity-90 drop-shadow-lg object-cover"
             style={{
-              clipPath:
-                "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
+              top: "20%",
+              left: "10%",
+              animationDelay: "0s",
+              objectPosition: "center center",
             }}
-          ></div>
-          <div
-            className="absolute w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 bg-cyan-300/40 animate-float-1 shadow-lg"
-            style={{
-              clipPath:
-                "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
-            }}
-          ></div>
+          />
 
-          {/* Star Shapes - Zain Style */}
-          <div
-            className="absolute w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 bg-white/30 animate-float-2 shadow-md"
+          {/* Zain Bubble 2 - Medium bubble with circular motion */}
+          <img
+            src="/src/assets/zain bubble 2.png"
+            alt="Zain Bubble"
+            className="absolute w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 animate-float-2 opacity-85 drop-shadow-md object-cover"
             style={{
-              clipPath:
-                "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)",
+              top: "60%",
+              right: "15%",
+              animationDelay: "3s",
+              objectPosition: "center center",
             }}
-          ></div>
-          <div
-            className="absolute w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-purple-300/35 animate-float-3 shadow-md"
+          />
+
+          {/* Zain Bubble 3 - Small bubble with pulsing effect */}
+          <img
+            src="/src/assets/zain bubble 3.png"
+            alt="Zain Bubble"
+            className="absolute w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 animate-float-3 opacity-80 drop-shadow-md object-cover"
             style={{
-              clipPath:
-                "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)",
+              top: "30%",
+              right: "30%",
+              animationDelay: "6s",
+              objectPosition: "center center",
             }}
-          ></div>
+          />
 
-          {/* Diamond Shapes - Zain Style */}
-          <div
-            className="absolute w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-cyan-400/40 animate-float-4 shadow-md"
-            style={{ clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)" }}
-          ></div>
-          <div
-            className="absolute w-8 h-8 md:w-10 md:h-10 lg:w-14 lg:h-14 bg-blue-300/35 animate-float-5 shadow-md"
-            style={{ clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)" }}
-          ></div>
+          {/* Zain Bubble 4 - Additional floating bubble with shimmer effect */}
+          <img
+            src="/src/assets/zain bubble 4.png"
+            alt="Zain Bubble"
+            className="absolute w-20 h-20 md:w-28 md:h-28 lg:w-36 lg:h-36 animate-float-4 opacity-70 drop-shadow-sm object-cover"
+            style={{
+              top: "70%",
+              left: "5%",
+              animationDelay: "9s",
+              objectPosition: "center center",
+            }}
+          />
 
-          {/* Triangle Shapes - Zain Style */}
-          <div
-            className="absolute w-10 h-10 md:w-14 md:h-14 lg:w-18 lg:h-18 bg-white/30 animate-float-6 shadow-md"
-            style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
-          ></div>
-          <div
-            className="absolute w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-purple-200/25 animate-float-7 shadow-md"
-            style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
-          ></div>
+          {/* Zain Bubble 5 - Small decorative bubble */}
+          <img
+            src="/src/assets/zain bubble 5.png"
+            alt="Zain Bubble"
+            className="absolute w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 animate-float-5 opacity-65 drop-shadow-sm object-cover"
+            style={{
+              top: "10%",
+              right: "5%",
+              animationDelay: "12s",
+              objectPosition: "center center",
+            }}
+          />
+
+          {/* Zain Bubble 1 - Medium floating bubble */}
+          <img
+            src="/src/assets/zain bubble 1.png"
+            alt="Zain Bubble"
+            className="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 animate-float-6 opacity-75 drop-shadow-md object-cover"
+            style={{
+              top: "50%",
+              left: "70%",
+              animationDelay: "15s",
+              objectPosition: "center center",
+            }}
+          />
+
+          {/* Zain Bubble 2 - Small decorative bubble */}
+          <img
+            src="/src/assets/zain bubble 2.png"
+            alt="Zain Bubble"
+            className="absolute w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 animate-float-7 opacity-50 drop-shadow-sm object-cover"
+            style={{
+              top: "15%",
+              left: "60%",
+              animationDelay: "18s",
+              objectPosition: "center center",
+            }}
+          />
+
+          {/* Zain Bubble 3 - Small floating bubble */}
+          <img
+            src="/src/assets/zain bubble 3.png"
+            alt="Zain Bubble"
+            className="absolute w-14 h-14 md:w-18 md:h-18 lg:w-22 lg:h-22 animate-float-8 opacity-60 drop-shadow-sm object-cover"
+            style={{
+              top: "80%",
+              right: "25%",
+              animationDelay: "21s",
+              objectPosition: "center center",
+            }}
+          />
+
+          {/* Zain Bubble 4 - Tiny decorative bubble */}
+          <img
+            src="/src/assets/zain bubble 4.png"
+            alt="Zain Bubble"
+            className="absolute w-10 h-10 md:w-14 md:h-14 lg:w-18 lg:h-18 animate-float-9 opacity-45 drop-shadow-sm object-cover"
+            style={{
+              top: "45%",
+              left: "85%",
+              animationDelay: "24s",
+              objectPosition: "center center",
+            }}
+          />
+
+          {/* Zain Bubble 5 - Additional small bubble */}
+          <img
+            src="/src/assets/zain bubble 5.png"
+            alt="Zain Bubble"
+            className="absolute w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 animate-float-10 opacity-40 drop-shadow-sm object-cover"
+            style={{
+              top: "75%",
+              left: "40%",
+              animationDelay: "27s",
+              objectPosition: "center center",
+            }}
+          />
         </div>
 
         {/* Zain Logo Background */}
@@ -110,7 +171,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-8 mt-12 sm:mt-16 md:mt-20 lg:mt-16 xl:mt-20">
             <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white text-sm font-medium">
               Jordan's Leading Network Provider
             </div>

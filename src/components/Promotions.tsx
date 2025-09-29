@@ -29,8 +29,70 @@ const Promotions = () => {
   ];
 
   return (
-    <section id="promotions" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section
+      id="promotions"
+      className="py-20 bg-white relative overflow-hidden"
+    >
+      {/* Zain Bubble Images as Background Decorations */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <img
+          src="/src/assets/zain bubble 2.png"
+          alt="Zain Bubble"
+          className="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 opacity-25 animate-float-1 drop-shadow-sm object-cover"
+          style={{
+            top: "15%",
+            left: "8%",
+            animationDelay: "1s",
+            objectPosition: "center center",
+          }}
+        />
+        <img
+          src="/src/assets/zain bubble 3.png"
+          alt="Zain Bubble"
+          className="absolute w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 opacity-30 animate-float-2 drop-shadow-sm object-cover"
+          style={{
+            top: "25%",
+            right: "12%",
+            animationDelay: "4s",
+            objectPosition: "center center",
+          }}
+        />
+        <img
+          src="/src/assets/zain bubble 4.png"
+          alt="Zain Bubble"
+          className="absolute w-20 h-20 md:w-28 md:h-28 lg:w-36 lg:h-36 opacity-20 animate-float-3 drop-shadow-sm object-cover"
+          style={{
+            bottom: "20%",
+            left: "5%",
+            animationDelay: "7s",
+            objectPosition: "center center",
+          }}
+        />
+        <img
+          src="/src/assets/zain bubble 5.png"
+          alt="Zain Bubble"
+          className="absolute w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 opacity-22 animate-float-4 drop-shadow-sm object-cover"
+          style={{
+            bottom: "15%",
+            right: "8%",
+            animationDelay: "10s",
+            objectPosition: "center center",
+          }}
+        />
+        <img
+          src="/src/assets/zain bubble 1.png"
+          alt="Zain Bubble"
+          className="absolute w-14 h-14 md:w-18 md:h-18 lg:w-22 lg:h-22 opacity-18 animate-float-5 drop-shadow-sm object-cover"
+          style={{
+            top: "70%",
+            left: "75%",
+            animationDelay: "13s",
+            objectPosition: "center center",
+          }}
+        />
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12 sm:mb-16">
           <div className="inline-flex items-center px-3 sm:px-4 py-2 bg-gradient-to-r from-purple-100 to-teal-100 rounded-full text-purple-800 font-semibold mb-4 text-sm sm:text-base">
             <Gift className="w-4 h-4 mr-2" />
