@@ -491,16 +491,10 @@ const CoverageMap = () => {
           setIsLoading(false);
         },
         () => {
-          alert(
-            "Unable to get your location. Please try searching manually or allow location access."
-          );
           setIsLoading(false);
         }
       );
     } else {
-      alert(
-        "Geolocation is not supported by this browser. Please search manually."
-      );
       setIsLoading(false);
     }
   };
