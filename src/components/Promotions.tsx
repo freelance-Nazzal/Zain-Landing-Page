@@ -106,7 +106,7 @@ const Promotions = () => {
               {/* Zain Logo Background */}
               <div className="absolute top-1/2 right-1/4 opacity-5 transform -translate-y-1/2">
                 <img
-                  src="/src/assets/Zain.jpeg"
+                  src="/assets/Zain.jpeg"
                   alt="Zain Logo"
                   className="w-80 h-80 object-contain filter blur-sm"
                 />

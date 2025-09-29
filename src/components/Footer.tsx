@@ -87,7 +87,7 @@ const Footer = () => {
             <div className="sm:col-span-2 lg:col-span-1">
               <div className="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
                 <img
-                  src="/src/assets/Zain.jpeg"
+                  src="/assets/Zain.jpeg"
                   alt="Zain Logo"
                   className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
                 />

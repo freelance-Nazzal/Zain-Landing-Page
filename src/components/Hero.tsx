@@ -100,7 +100,7 @@ const Hero = () => {
         {/* Zain Logo Background */}
         <div className="absolute top-1/2 right-1/4 opacity-10 transform -translate-y-1/2">
           <img
-            src="/src/assets/Zain.jpeg"
+            src="/assets/Zain.jpeg"
             alt="Zain Logo"
             className="w-96 h-96 object-contain filter blur-sm"
           />
@@ -198,7 +198,7 @@ const Hero = () => {
           {/* Zain Logo Background in Modal */}
           <div className="absolute inset-0 opacity-5">
             <img
-              src="/src/assets/Zain.jpeg"
+              src="/assets/Zain.jpeg"
               alt="Zain Logo"
               className="w-full h-full object-contain filter blur-2xl"
             />
