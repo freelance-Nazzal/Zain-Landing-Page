@@ -6,7 +6,6 @@ import {
   Mail,
   Phone,
   MapPin,
-  Download,
   Apple,
   Play,
 } from "lucide-react";
@@ -254,7 +253,7 @@ const Footer = () => {
             {/* Right Side - Download App */}
             <div className="flex flex-row gap-3 w-full lg:w-auto">
               <a
-                href="https://apps.apple.com/app/zain-jordan/id1234567890"
+                href="https://apps.apple.com/gh/app/zain-jo/id705212738"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center bg-white/15 backdrop-blur-sm border border-white/25 hover:bg-white/25 rounded-lg px-3 sm:px-4 py-2 sm:py-3 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer"
@@ -268,11 +267,10 @@ const Footer = () => {
                     App Store
                   </div>
                 </div>
-                <Download className="w-3 h-3 sm:w-4 sm:h-4 text-white/80 group-hover:text-white group-hover:translate-x-1 transition-all duration-300 sm:hidden" />
               </a>
 
               <a
-                href="https://play.google.com/store/apps/details?id=com.zain.jordan"
+                href="https://play.google.com/store/apps/details?id=com.apps2you.zain&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center bg-white/15 backdrop-blur-sm border border-white/25 hover:bg-white/25 rounded-lg px-3 sm:px-4 py-2 sm:py-3 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer"
@@ -286,7 +284,6 @@ const Footer = () => {
                     Google Play
                   </div>
                 </div>
-                <Download className="w-3 h-3 sm:w-4 sm:h-4 text-white/80 group-hover:text-white group-hover:translate-x-1 transition-all duration-300 sm:hidden" />
               </a>
             </div>
           </div>
